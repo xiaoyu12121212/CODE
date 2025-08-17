@@ -15,10 +15,10 @@ function [modes its]=ceemdan(x,Nstd,NR,MaxIter)
 %   MaxIter: maximum number of sifting iterations allowed.
 %
 %  OUTPUTs
-%  modes: contain the obtained modes in a matrix with the rows being the modes 将获得的模式包含在矩阵中，其中行为模式       
+%  modes: contain the obtained modes in a matrix with the rows being the modes 
 %   its: contain the sifting iterations needed for each mode for each realization (one row for each realization)
-% 其：包含每个实现的每个模式所需的筛选迭代次数（每个实现一行）
-% 包含每个实现的每个模式所需的筛选迭代（每个实现一行）
+%
+% 
 % -------------------------------------------------------------------------
 %  Syntax
 %
@@ -106,6 +106,7 @@ modes=[modes;(x-acum)];
 iter=iter(:,1:a);
 modes=modes*desvio_x;
 its=iter;
+
 
 
    
