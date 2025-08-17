@@ -1,5 +1,5 @@
 %EMD  computes Empirical Mode Decomposition
-%这个是通过设定阈值来确定分解出的imf个数
+%
 %
 %   Syntax
 %
@@ -126,12 +126,12 @@
 % Hilbert spectrum for non-linear and non stationary time series analysis",
 % Proc. Royal Soc. London A, Vol. 454, pp. 903-995, 1998
 %
-% [2] G. Rilling, P. Flandrin and P. Gon鏰lves
+% [2] G. Rilling, P. Flandrin and P. Gonlves
 % "On Empirical Mode Decomposition and its algorithms",
 % IEEE-EURASIP Workshop on Nonlinear Signal and Image Processing
 % NSIP-03, Grado (I), June 2003
 %
-% [3] G. Rilling, P. Flandrin, P. Gon鏰lves and J. M. Lilly.,
+% [3] G. Rilling, P. Flandrin, P. Gonlves and J. M. Lilly.,
 % "Bivariate Empirical Mode Decomposition",
 % Signal Processing Letters (submitted)
 %
