@@ -1,6 +1,6 @@
 function [Best_score, Best_pos, uncZOA_curve] = unc_ZOA(Popsize, Max_iter, lb, ub, dim, fobj, n1, n2, n3)
 
-%% 初始化
+%% 
 X = zeros(Popsize, dim);
 lb = ones(1, dim).*(lb);
 ub = ones(1, dim).*(ub);
@@ -108,3 +108,4 @@ Best_pos = PZ;
 uncZOA_curve = best_so_far;
 
 end
+
